@@ -1,0 +1,23 @@
+@use "../../helpers" as *;
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-bottom: rem(20);
+  &__body {
+    display: grid;
+    grid-template-columns: repeat(8, rem(30));
+    row-gap: rem(5);
+  }
+
+  &__page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    &-current {
+      border-radius: 3px;
+      border: 1px var(--color-accent) solid;
+    }
+  }
+}

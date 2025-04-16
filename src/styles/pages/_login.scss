@@ -1,0 +1,22 @@
+@use "../helpers" as *;
+
+.login {
+  margin-top: rem(20);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &__form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: rem(20);
+  }
+
+  &__list {
+    display: flex;
+    row-gap: rem(20);
+    flex-direction: column;
+  }
+}

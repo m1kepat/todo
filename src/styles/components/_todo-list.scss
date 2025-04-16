@@ -1,0 +1,9 @@
+@use "../helpers" as *;
+
+.todo-list {
+  &__title {
+    font-size: rem(40);
+    text-align: center;
+    margin-block: rem(18);
+  }
+}

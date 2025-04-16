@@ -1,0 +1,17 @@
+@use "../../helpers" as *;
+
+.menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70px;
+  background-color: var(--color-dark-10);
+  border-bottom: var(--border);
+
+  &__list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: var(--container-width);
+  }
+}

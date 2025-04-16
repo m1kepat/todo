@@ -1,0 +1,25 @@
+@use "helpers" as *;
+
+:root {
+  --color-light: #fff;
+
+  --color-dark: #141414;
+  --color-dark-10: #1a1a1a;
+  --color-dark-15: #262626;
+  --color-dark-40: #666;
+
+  --color-gray-50: #7e7e81;
+
+  --color-accent: #0cee2a;
+
+  --border: #{rem(2)} solid var(--color-dark-15);
+
+  --font-family-base: "Inter", sans-serif;
+  --font-family-accent: "Kumbh Sans", sans-serif;
+
+  --container-width: #{rem(1600)};
+
+  @include laptop {
+    --container-width: #{rem(1280)};
+  }
+}

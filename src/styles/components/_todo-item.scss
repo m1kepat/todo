@@ -1,0 +1,21 @@
+@use "../helpers" as *;
+
+.todo {
+  display: flex;
+  justify-content: center;
+  &__body {
+    width: 600px;
+  }
+
+  &__content {
+    background-color: var(--color-dark-10);
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: rem(20);
+    border-radius: rem(10);
+    border: var(--border);
+    column-gap: rem(20);
+  }
+}

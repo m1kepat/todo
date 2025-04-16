@@ -1,0 +1,20 @@
+@use "../helpers" as *;
+
+.panel {
+  margin-top: rem(20);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  &__body {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    column-gap: rem(20);
+
+    @include laptop {
+      width: 70%;
+    }
+  }
+}
